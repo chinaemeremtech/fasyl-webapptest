@@ -1,0 +1,46 @@
+/* Custom CSS */
+/*@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cardo&display=swap');*/
+
+html {
+  position: relative;
+  min-height: 100%; }
+
+body {
+  overflow-x: hidden;
+}
+
+body.sticky-footer {
+  margin-bottom: 57px;
+
+}
+
+body.sticky-footer .content-wrapper {
+  min-height: calc(100vh - 56px - 56px);
+}
+
+.content-wrapper {
+  min-height: calc(100vh - 56px);
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  /*line-height: 80px;  Vertically center the text there */
+  color: #fff;
+  background-color: #333;
+  margin-top: 30px;
+}
+
+.footer a {
+	color: #f4f4f4;
+	text-decoration: underline;
+}
+
+.footer a:hover {
+	color: #f4f4f4;
+	text-decoration: none;
+}
